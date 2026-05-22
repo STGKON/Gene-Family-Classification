@@ -17,6 +17,7 @@ The pipeline utilizes **4,380 unique DNA sequences** sourced from the Kaggle Gen
 *   **Class 4:** Synthases
 *   **Class 5:** Ion channels
 *   **Class 6:** Transcription factors
+*   You can find the dataset here -> [Kaggle Gene Classification Dataset](https://www.kaggle.com/datasets/nageshsinghmahayan/dna-sequence-dataset).
 
 ### Technical Challenges Addressed
 1. **Severe Class Imbalance:** The dataset is highly skewed. Class 6 (Transcription factors) dominates with **1,343 samples**, whereas Class 5 (Ion channels) is severely underrepresented with only **240 samples**. To prevent the model from simply memorizing the majority class, performance is evaluated using **Macro-F1 scores** and stratified training logic.
